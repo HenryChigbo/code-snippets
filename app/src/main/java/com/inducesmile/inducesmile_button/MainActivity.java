@@ -8,13 +8,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
 
         //Add OnClickEvents to the button that responds to the user event
         button.setOnClickListener(new View.OnClickListener() {
