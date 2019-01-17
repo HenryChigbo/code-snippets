@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".button.RoundedCornerButton">
+    tools:context=".button.RoundedCornerButtonActivity">
 
 
     <Button
@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_round_corner"
         android:text="Round Corner Button"
+        android:padding="16dp"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -10,18 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name=".button.ChangeButtonColorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".button.RoundedCornerButton" />
-        <activity android:name=".button.GradientColorButton" />
-        <activity android:name=".button.ChangeButtonColor" />
-        <activity android:name=".button.BorderlessColorButton" />
-        <activity android:name=".button.BorderButton" />
+        <activity android:name=".button.RoundedCornerButtonActivity" />
+        <activity android:name=".button.GradientColorButtonActivity" />
+        <activity android:name=".button.BorderButton"/>
+        <activity android:name=".button.BorderlessColorButtonActivity"/>
     </application>
 
 </manifest>

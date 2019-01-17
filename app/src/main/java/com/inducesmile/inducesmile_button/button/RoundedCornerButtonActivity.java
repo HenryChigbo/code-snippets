@@ -8,22 +8,22 @@ import android.widget.Toast;
 
 import com.inducesmile.inducesmile_button.R;
 
-public class ChangeButtonColor extends AppCompatActivity {
+public class RoundedCornerButtonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_change_button_color);
+        setContentView(R.layout.activity_rounded_corner_button);
 
-        final Button button = findViewById(R.id.button6);
+        Button button = findViewById(R.id.button2);
 
         //Add OnClickEvents to the button that responds to the user event
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                button.setBackgroundColor(getResources().getColor(R.color.colorAccent));
-                Toast.makeText(getBaseContext(), "The Button changed color when pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "This is a Round Corner Button", Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 }
