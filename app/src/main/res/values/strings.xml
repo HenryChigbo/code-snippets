@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Button Event</string>
     <string name="click_me">Click Me</string>
+
+    <string-array name="social_media">
+        <item>Facebook</item>
+        <item>Linkedln</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Pinterest</item>
+        <item>Snapchat</item>
+    </string-array>
 </resources>
