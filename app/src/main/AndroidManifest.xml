@@ -11,27 +11,27 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity" />
-        <activity android:name=".button.RoundedCornerButton" />
-        <activity android:name=".button.GradientColorButton" />
-        <activity android:name=".button.ChangeButtonColor" />
-        <activity android:name=".button.BorderlessColorButton" />
         <activity android:name=".button.BorderButton" />
-        <activity android:name=".spinner.HintSpinner"/>
-
+        <activity android:name=".spinner.HintSpinner" />
         <activity android:name=".spinner.SpinnerTextSize" />
         <activity android:name=".spinner.SpinnerTextColor" />
         <activity android:name=".spinner.DropDownArrowSpinner" />
         <activity android:name=".spinner.SpinnerActivity" />
         <activity android:name=".spinner.SpinnerActivityOnItemSelectedListener" />
-        <activity android:name=".spinner.DisableAnItem">
+        <activity android:name=".spinner.DisableAnItem" />
+        <activity android:name=".button.ChangeButtonColorActivity" />
+        <activity android:name=".spinner.HideAnItem" />
+        <activity android:name=".button.RoundedCornerButtonActivity" />
+        <activity android:name=".button.GradientColorButtonActivity" />
+        <activity android:name=".button.BorderlessColorButtonActivity" />
+        <activity android:name=".spinner.SpinnerBackground">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".spinner.HideAnItem"/>
-
+        <activity android:name=".spinner.SelectedItemBackground"></activity>
     </application>
 
 </manifest>

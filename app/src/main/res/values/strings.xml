@@ -10,4 +10,6 @@
         <item>Pinterest</item>
         <item>Snapchat</item>
     </string-array>
+    <string name="borderless_button">Borderless Button</string>
+    <string name="change_background_color">Change Background Color</string>
 </resources>
