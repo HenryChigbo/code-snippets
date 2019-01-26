@@ -24,14 +24,29 @@
         <activity android:name=".button.RoundedCornerButtonActivity" />
         <activity android:name=".button.GradientColorButtonActivity" />
         <activity android:name=".button.BorderlessColorButtonActivity" />
-        <activity android:name=".spinner.SpinnerBackground">
+        <activity android:name=".spinner.SpinnerBackground" />
+        <activity android:name=".spinner.SelectedItemBackground" />
+        <activity android:name=".spinner.ImageSpinner" />
+        <activity android:name=".spinner.FindAnItemSpinner" />
+        <activity android:name=".imageview.RoundedCorner" />
+        <activity android:name=".imageview.ScaleImage" />
+        <activity android:name=".imageview.ZoomInZoomOut" />
+        <activity android:name=".imageview.ImageClickEvent" />
+        <activity android:name=".imageview.ImageTouchEvent" />
+        <activity android:name=".imageview.ChooseImage" />
+        <activity android:name=".imageview.ImageViewBackground" />
+        <activity android:name=".imageview.ScaleImageAspectRatio" />
+        <activity android:name=".imageview.ChangeImage" />
+        <activity android:name=".imageview.HideAndShowImage"/>
+        <activity android:name=".imageview.ImageViewMargin"/>
+
+        <activity android:name=".imageview.AddImageView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".spinner.SelectedItemBackground"></activity>
     </application>
 
 </manifest>

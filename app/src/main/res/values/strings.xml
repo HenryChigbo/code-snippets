@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Button Event</string>
+    <string name="app_name">Code Snippet</string>
     <string name="click_me">Click Me</string>
 
     <string-array name="social_media">
