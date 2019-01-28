@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.inducesmile.inducesmile_button">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -37,16 +39,30 @@
         <activity android:name=".imageview.ImageViewBackground" />
         <activity android:name=".imageview.ScaleImageAspectRatio" />
         <activity android:name=".imageview.ChangeImage" />
-        <activity android:name=".imageview.HideAndShowImage"/>
-        <activity android:name=".imageview.ImageViewMargin"/>
-
-        <activity android:name=".imageview.AddImageView" >
+        <activity android:name=".imageview.HideAndShowImage" />
+        <activity android:name=".imageview.ImageViewMargin" />
+        <activity android:name=".imageview.AddImageView" />
+        <activity android:name=".imageview.ImageGlide" />
+        <activity android:name=".imageview.ImageViewOverImageView" />
+        <activity android:name=".imageview.ImagePicasso" />
+        <activity android:name=".imageview.TextViewImageView" />
+        <activity android:name=".imageview.ColorDrawableImageView" />
+        <activity android:name=".imageview.ImageHeight" />
+        <activity android:name=".imageview.ImageViewGetHeightAndWidth" />
+        <activity android:name=".imageview.ImageViewRotate" />
+        <activity android:name=".imageview.ImageViewRemovePadding" />
+        <activity android:name=".imageview.ImageViewHeightAndWidth" />
+        <activity android:name=".imageview.ImageViewResize" />
+        <activity android:name=".imageview.CircularImageView"/>
+        <activity android:name=".imageview.ImageViewUrl">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".imageview.ImageViewRemove"/>
+
     </application>
 
 </manifest>

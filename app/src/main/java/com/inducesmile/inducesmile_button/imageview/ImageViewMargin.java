@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.inducesmile.inducesmile_button.R;
 
@@ -15,14 +16,10 @@ public class ImageViewMargin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_view_margin);
 
-        final ImageView imageView = findViewById(R.id.imageView2);
-        Button changeMargin = findViewById(R.id.changeMargin);
+        ImageView imageView = findViewById(R.id.imageView2);
 
-        changeMargin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        layoutParams.setMargins(15, 15, 15, 15);
+        imageView.setLayoutParams(layoutParams);
     }
 }

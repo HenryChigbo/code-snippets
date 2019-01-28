@@ -25,6 +25,7 @@ public class AddImageView extends AppCompatActivity {
         imageView.setImageResource(R.drawable.inducesmilelog);
 
         linearLayout.addView(imageView);
+        setContentView(linearLayout);
     }
 
 
