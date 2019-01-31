@@ -17,10 +17,12 @@ import android.widget.ImageView;
 import com.inducesmile.inducesmile_button.R;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class ChooseImage extends AppCompatActivity {
 
-    private ImageView imageView = findViewById(R.id.imageView2);
+    //private ImageView imageView = findViewById(R.id.imageView2);
+    private int PICK_IMAGE_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,32 +35,36 @@ public class ChooseImage extends AppCompatActivity {
         selectImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent choosePicture = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(choosePicture, 0);
+                chooseImage();
             }
         });
     }
 
+    public void chooseImage() {
+        Intent intent = new Intent();
+        intent.setType("image/*");
+        intent.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE_REQUEST);
+    }
+
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent intent) {
-        super.onActivityResult(requestCode, resultCode, intent);
-        if (resultCode == RESULT_OK){
-            Uri imageUri = intent.getData();
-            Display currentDisplay = getWindowManager().getDefaultDisplay();
-            int dw = currentDisplay.getWidth();
-            int dh = currentDisplay.getHeight() / 2 - 100;
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.getData() != null) {
+
+            Uri uri = data.getData();
+
             try {
-                BitmapFactory.Options bitmapFactoryOptions = new BitmapFactory.Options();
-                bitmapFactoryOptions.inJustDecodeBounds = true;
-                Bitmap bitmap; //= BitmapFactory.decodeStream(getContentResolver().openInputStream(imageUri), null, bitmapFactoryOptions);
-                bitmapFactoryOptions.inSampleSize = 2;
-                bitmapFactoryOptions.inJustDecodeBounds = false;
-                bitmap = BitmapFactory.decodeStream(getContentResolver().openInputStream(imageUri), null, bitmapFactoryOptions);
+                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                // Log.d(TAG, String.valueOf(bitmap));
+
+                ImageView imageView = (ImageView) findViewById(R.id.imageView2);
                 imageView.setImageBitmap(bitmap);
-            } catch (FileNotFoundException e){
-                Log.e("Error", e.toString());
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
-
     }
+
 }

@@ -34,9 +34,11 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ff4149" />
+                            <entry key="height" value="120" />
                             <entry key="outputName" value="ic_video_library_black_24dp" />
                             <entry key="overrideSize" value="true" />
                             <entry key="sourceFile" value="C:\Users\IamDeeJay" />
+                            <entry key="width" value="120" />
                           </map>
                         </option>
                       </PersistentState>
