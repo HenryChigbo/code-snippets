@@ -67,7 +67,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".imageview.ImageClickFullScreen" />
-        <activity android:name=".imageview.DrawTextImageView"></activity>
+        <activity android:name=".imageview.DrawTextImageView" />
+        <activity android:name=".imageview.ImageViewAdjustViewBounds" />
+        <activity android:name=".imageview.GifImageView" />
+        <activity android:name=".imageview.ImageViewFragment"></activity>
     </application>
 
 </manifest>
