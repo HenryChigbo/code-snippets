@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rounded_corner"
-    tools:context=".imageview.RoundedCorner">
+    tools:context=".imageview.ImageView2">
 
     <ImageView
         android:id="@+id/imageView2"

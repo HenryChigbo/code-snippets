@@ -30,47 +30,49 @@
         <activity android:name=".spinner.SelectedItemBackground" />
         <activity android:name=".spinner.ImageSpinner" />
         <activity android:name=".spinner.FindAnItemSpinner" />
-        <activity android:name=".imageview.RoundedCorner" />
-        <activity android:name=".imageview.ScaleImage" />
-        <activity android:name=".imageview.ZoomInZoomOut" />
-        <activity android:name=".imageview.ImageClickEvent" />
-        <activity android:name=".imageview.ImageTouchEvent" />
-        <activity android:name=".imageview.ChooseImage" />
-        <activity android:name=".imageview.ImageViewBackground" />
-        <activity android:name=".imageview.ScaleImageAspectRatio" />
-        <activity android:name=".imageview.ChangeImage" />
-        <activity android:name=".imageview.HideAndShowImage" />
-        <activity android:name=".imageview.ImageViewMargin" />
-        <activity android:name=".imageview.AddImageView" />
-        <activity android:name=".imageview.ImageGlide" />
-        <activity android:name=".imageview.ImageViewOverImageView" />
-        <activity android:name=".imageview.ImagePicasso" />
-        <activity android:name=".imageview.TextViewImageView" />
-        <activity android:name=".imageview.ColorDrawableImageView" />
-        <activity android:name=".imageview.ImageHeight" />
-        <activity android:name=".imageview.ImageViewGetHeightAndWidth" />
-        <activity android:name=".imageview.ImageViewRotate" />
-        <activity android:name=".imageview.ImageViewRemovePadding" />
-        <activity android:name=".imageview.ImageViewHeightAndWidth" />
-        <activity android:name=".imageview.ImageViewResize" />
-        <activity android:name=".imageview.CircularImageView" />
-        <activity android:name=".imageview.ImageViewUrl" />
-        <activity android:name=".imageview.ImageViewRemove" />
-        <activity android:name=".imageview.Drawable2Bitmap" />
-        <activity android:name=".imageview.Drawable2ByteArray" />
-        <activity android:name=".imageview.BitmapImageView" />
-        <activity android:name=".imageview.AnimateImageView">
+        <activity android:name=".imageview.ImageView2" />
+        <activity android:name=".imageview.ImageView7" />
+        <activity android:name=".imageview.ImageView14">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".imageview.ImageClickFullScreen" />
-        <activity android:name=".imageview.DrawTextImageView" />
-        <activity android:name=".imageview.ImageViewAdjustViewBounds" />
-        <activity android:name=".imageview.GifImageView" />
-        <activity android:name=".imageview.ImageViewFragment"></activity>
+        <activity android:name=".imageview.ImageView31" />
+        <activity android:name=".imageview.ImageView32" />
+        <activity android:name=".imageview.ImageView12" />
+        <activity android:name=".imageview.ImageView22" />
+        <activity android:name=".imageview.ImageView16" />
+        <activity android:name=".imageview.ImageView21" />
+        <activity android:name=".imageview.ImageView33" />
+        <activity android:name=".imageview.ImageView30" />
+        <activity android:name=".imageview.ImageView19" />
+        <activity android:name=".imageview.ImageView34" />
+        <activity android:name=".imageview.ImageView26" />
+        <activity android:name=".imageview.ImageView35" />
+        <activity android:name=".imageview.ImageView38" />
+        <activity android:name=".imageview.ImageView36" />
+        <activity android:name=".imageview.ImageView27" />
+        <activity android:name=".imageview.ImageView17" />
+        <activity android:name=".imageview.ImageView9" />
+        <activity android:name=".imageview.ImageView10" />
+        <activity android:name=".imageview.ImageView3" />
+        <activity android:name=".imageview.ImageView29" />
+        <activity android:name=".imageview.ImageView13" />
+        <activity android:name=".imageview.ImageView4" />
+        <activity android:name=".imageview.ImageView11" />
+        <activity android:name=".imageview.ImageView5" />
+        <activity android:name=".imageview.ImageView8" />
+        <activity android:name=".imageview.ImageView6" />
+        <activity android:name=".imageview.ImageView20" />
+        <activity android:name=".imageview.ImageView37" />
+        <activity android:name=".imageview.ImageView39" />
+        <activity android:name=".imageview.ImageView23" />
+        <activity android:name=".imageview.ImageView25" />
+        <activity android:name=".imageview.ImageView1" />
+        <activity android:name=".imageview.ImageView24" />
+        <activity android:name=".imageview.ImageView28"></activity>
     </application>
 
 </manifest>
