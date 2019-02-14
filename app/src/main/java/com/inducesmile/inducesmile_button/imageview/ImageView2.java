@@ -12,18 +12,18 @@ import com.inducesmile.inducesmile_button.R;
 
 public class ImageView2 extends AppCompatActivity {
 
-    ImageView imageView = findViewById(R.id.imageView2);
+    //ImageView imageView = findViewById(R.id.imageView2);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rounded_corner);
 
-        Bitmap batmapBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ext);
-        RoundedBitmapDrawable circularBitmapDrawable = RoundedBitmapDrawableFactory.create(getResources(), batmapBitmap);
-
-        circularBitmapDrawable.setCircular(true);
-        imageView.setImageDrawable(circularBitmapDrawable);
+//        Bitmap batmapBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ext);
+//        RoundedBitmapDrawable circularBitmapDrawable = RoundedBitmapDrawableFactory.create(getResources(), batmapBitmap);
+//
+//        circularBitmapDrawable.setCircular(true);
+//        imageView.setImageDrawable(circularBitmapDrawable);
 
     }
 

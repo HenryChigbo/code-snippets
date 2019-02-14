@@ -32,13 +32,7 @@
         <activity android:name=".spinner.FindAnItemSpinner" />
         <activity android:name=".imageview.ImageView2" />
         <activity android:name=".imageview.ImageView7" />
-        <activity android:name=".imageview.ImageView14">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".imageview.ImageView14" />
         <activity android:name=".imageview.ImageView31" />
         <activity android:name=".imageview.ImageView32" />
         <activity android:name=".imageview.ImageView12" />
@@ -72,7 +66,38 @@
         <activity android:name=".imageview.ImageView25" />
         <activity android:name=".imageview.ImageView1" />
         <activity android:name=".imageview.ImageView24" />
-        <activity android:name=".imageview.ImageView28"></activity>
+        <activity android:name=".imageview.ImageView28" />
+        <activity android:name=".webview.Webview1" />
+        <activity android:name=".webview.Webview2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".webview.Webview3" />
+        <activity android:name=".webview.Webview4" />
+        <activity android:name=".webview.Webview5" />
+        <activity android:name=".webview.Webview6" />
+        <activity android:name=".webview.Webview7" />
+        <activity android:name=".webview.Webview8" />
+        <activity android:name=".webview.Webview9" />
+        <activity android:name=".webview.Webview10" />
+        <activity android:name=".webview.Webview11" />
+        <activity android:name=".webview.Webview13" />
+        <activity android:name=".webview.Webview12" />
+        <activity android:name=".webview.Webview14" />
+        <activity android:name=".webview.Webview15" />
+        <activity android:name=".webview.Webview16" />
+        <activity android:name=".webview.Webview17" />
+        <activity android:name=".webview.Webview18" />
+        <activity android:name=".webview.Webview19" />
+        <activity android:name=".webview.Webview20" />
+        <activity android:name=".webview.Webview21" />
+        <activity android:name=".webview.Webview22" />
+        <activity android:name=".webview.Webview23" />
+        <activity android:name=".webview.Webview24" />
+        <activity android:name=".webview.Webview25"></activity>
     </application>
 
 </manifest>
