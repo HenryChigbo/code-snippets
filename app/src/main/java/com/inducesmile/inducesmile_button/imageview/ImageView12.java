@@ -17,7 +17,6 @@ import java.io.IOException;
 
 public class ImageView12 extends AppCompatActivity {
 
-    //private ImageView imageView = findViewById(R.id.imageView2);
     private int PICK_IMAGE_REQUEST = 1;
 
     @Override

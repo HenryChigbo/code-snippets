@@ -25,7 +25,6 @@ public class ImageView14 extends AppCompatActivity {
         mImageView = findViewById(R.id.imageView2);
         mScaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-
 //        PhotoViewAttacher pAttacher;
 //        pAttacher = new PhotoViewAttacher(view);
 //        pAttacher.update();

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.Layout14"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:background="@color/colorPrimary"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:text="This is fixed to the top left side"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:text="This is fixed to the center"/>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|end"
+        android:text="This is fixed to the bottom right of the screen"/>
+
+
+</LinearLayout>

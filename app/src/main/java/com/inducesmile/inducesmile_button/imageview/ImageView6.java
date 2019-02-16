@@ -29,12 +29,6 @@ public class ImageView6 extends AppCompatActivity {
                 bitmapImageView.setImageBitmap(imageView2Bitmap(imageView));
             }
         });
-
-        //Loading image using Picasso and resize the ImageView
-//        Picasso.get()
-//                .load(imageView2Bitmap(imageView))
-//                .resize(225, 145)
-//                .into(imageView);
     }
 
     private Bitmap imageView2Bitmap(ImageView view){
