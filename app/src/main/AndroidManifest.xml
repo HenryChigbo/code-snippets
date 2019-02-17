@@ -96,26 +96,30 @@
         <activity android:name=".layout.Layout2" />
         <activity android:name=".layout.Layout3" />
         <activity android:name=".layout.Layout4" />
-        <activity android:name=".layout.Layout5" />
-        <activity android:name=".layout.Layout6" />
-        <activity android:name=".layout.Layout7" />
-        <activity android:name=".layout.Layout8" />
-        <activity android:name=".layout.Layout14" />
-        <activity android:name=".layout.Layout10" />
-        <activity android:name=".layout.Layout11"/>
-        <activity android:name=".layout.Layout9" />
-        <activity android:name=".layout.Layout17" >
+        <activity android:name=".layout.Layout5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".layout.Layout12" />
+        <activity android:name=".layout.Layout6" />
+        <activity android:name=".layout.Layout7" />
+        <activity android:name=".layout.Layout8" />
+        <activity android:name=".layout.Layout14" />
+        <activity android:name=".layout.Layout10" />
+        <activity android:name=".layout.Layout11" />
+        <activity android:name=".layout.Layout9" />
+        <activity android:name=".layout.Layout17" />
+        <activity android:name=".layout.Layout12">
+
+        </activity>
         <activity android:name=".layout.Layout13" />
         <activity android:name=".layout.Layout15" />
         <activity android:name=".layout.Layout16" />
-        <activity android:name=".layout.Layout18"></activity>
+        <activity android:name=".layout.Layout18" />
+        <activity android:name=".layout.Layout20"/>
+
     </application>
 
 </manifest>

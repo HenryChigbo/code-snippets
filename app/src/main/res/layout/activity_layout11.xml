@@ -9,20 +9,19 @@
 
     <CalendarView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
     <LinearLayout
-        android:layout_marginTop="10dp"
         android:id="@+id/linearlayout"
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Clicking on the image or this text will trigger a click event on the Linear Layout"/>
+            android:text="Clicking on the image or this text will trigger a click event on the Linear Layout" />
 
         <ImageView
             android:layout_width="match_parent"
