@@ -96,7 +96,7 @@
         <activity android:name=".layout.Layout2" />
         <activity android:name=".layout.Layout3" />
         <activity android:name=".layout.Layout4" />
-        <activity android:name=".layout.Layout5"/>
+        <activity android:name=".layout.Layout5" />
         <activity android:name=".layout.Layout6" />
         <activity android:name=".layout.Layout7" />
         <activity android:name=".layout.Layout8" />
@@ -105,19 +105,42 @@
         <activity android:name=".layout.Layout11" />
         <activity android:name=".layout.Layout9" />
         <activity android:name=".layout.Layout17" />
-        <activity android:name=".layout.Layout12"/>
+        <activity android:name=".layout.Layout12" />
         <activity android:name=".layout.Layout13">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".layout.Layout15" />
         <activity android:name=".layout.Layout16" />
-        <activity android:name=".layout.Layout18"/>
+        <activity android:name=".layout.Layout18" />
         <activity android:name=".layout.Layout20" />
-        <activity android:name=".layout.Layout19"/>
+        <activity android:name=".layout.Layout19" />
+        <activity android:name=".toolbar.Toolbar1"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".toolbar.Toolbar2" />
+        <activity android:name=".toolbar.Toolbar3" />
+        <activity android:name=".toolbar.Toolbar4" />
+        <activity android:name=".toolbar.Toolbar5" />
+        <activity android:name=".toolbar.Toolbar6" />
+        <activity android:name=".toolbar.Toolbar7" />
+        <activity android:name=".toolbar.Toolbar8" />
+        <activity android:name=".toolbar.Toolbar9" />
+        <activity android:name=".toolbar.Toolbar10" />
+        <activity android:name=".toolbar.Toolbar11" />
+        <activity android:name=".toolbar.Toolbar12" />
+        <activity android:name=".toolbar.Toolbar13" />
+        <activity android:name=".toolbar.Toolbar14" />
+        <activity android:name=".toolbar.Toolbar15" />
+        <activity android:name=".toolbar.Toolbar16" />
+        <activity android:name=".toolbar.Toolbar17" />
+        <activity android:name=".toolbar.Toolbar18" />
+        <activity android:name=".toolbar.Toolbar19" />
+        <activity android:name=".toolbar.Toolbar20"></activity>
     </application>
 
 </manifest>
