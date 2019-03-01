@@ -2,6 +2,7 @@ package com.inducesmile.inducesmile_button.toolbar;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 
 import com.inducesmile.inducesmile_button.R;
 
@@ -11,5 +12,8 @@ public class Toolbar13 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toolbar13);
+
+        Toolbar toolbar = findViewById(R.id.toolbar_top);
+        toolbar.setNavigationIcon(R.drawable.ic_home_black_24dp);
     }
 }
