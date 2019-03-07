@@ -13,6 +13,16 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
+            android:name=".toolbar.Toolbar17"
+            android:label="@string/title_activity_toolbar17"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".toolbar.Toolbar9"
             android:label="@string/title_activity_toolbar9"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -125,34 +135,19 @@
         <activity android:name=".toolbar.Toolbar3" />
         <activity android:name=".toolbar.Toolbar4" />
         <activity android:name=".toolbar.Toolbar5" />
-        <activity android:name=".toolbar.Toolbar6"/>
+        <activity android:name=".toolbar.Toolbar6" />
         <activity android:name=".toolbar.Toolbar7" />
-        <activity android:name=".toolbar.Toolbar8"/>
-        <activity android:name=".toolbar.Toolbar10"/>
-        <activity android:name=".toolbar.Toolbar12"/>
+        <activity android:name=".toolbar.Toolbar8" />
+        <activity android:name=".toolbar.Toolbar10" />
+        <activity android:name=".toolbar.Toolbar12" />
         <activity android:name=".toolbar.Toolbar13" />
         <activity android:name=".toolbar.Toolbar14" />
         <activity android:name=".toolbar.Toolbar15" />
         <activity android:name=".toolbar.Toolbar16" />
-        <activity android:name=".toolbar.Toolbar17" />
-        <activity android:name=".toolbar.Toolbar18"/>
-        <activity android:name=".toolbar.Toolbar19"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".toolbar.Toolbar18" />
+        <activity android:name=".toolbar.Toolbar19" />
+        <activity android:name=".toolbar.Toolbar20" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".toolbar.Toolbar20"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
