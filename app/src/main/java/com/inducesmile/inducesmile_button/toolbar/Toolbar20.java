@@ -13,9 +13,8 @@ public class Toolbar20 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toolbar20);
 
-        Toolbar toolbar = findViewById(R.id.toolbar_top);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle("Transparent Background");
-        toolbar.setBackgroundColor(getResources().getColor(android.R.color.transparent));
     }
 }

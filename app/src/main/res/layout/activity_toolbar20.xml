@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,20 +8,13 @@
     tools:context=".toolbar.Toolbar20">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_top"
-        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:minHeight="?attr/actionBarSize"
-        >
-    </android.support.v7.widget.Toolbar>
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_background"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <!--<TextView-->
-        <!--android:layout_marginTop="40dp"-->
-        <!--android:gravity="center_horizontal"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:textSize="20sp"-->
-        <!--android:text="Toolbar Transparent Background"/>-->
-
+    <include layout="@layout/content_toolbar2" />
 
 </android.support.design.widget.CoordinatorLayout>
