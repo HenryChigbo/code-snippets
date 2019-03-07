@@ -13,7 +13,7 @@ public class Toolbar6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toolbar6);
 
-        Toolbar toolbar = findViewById(R.id.toolbar_top);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Toolbar Overlapping");
         setSupportActionBar(toolbar);
         getSupportActionBar();
