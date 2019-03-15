@@ -19,8 +19,6 @@ public class ProgressBar8 extends AppCompatActivity {
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(100,100);
         params.addRule(RelativeLayout.CENTER_IN_PARENT);
         layout.addView(progressBar,params);
-
         setContentView(layout);
-        //setContentView(R.layout.activity_progress_bar8);
     }
 }
