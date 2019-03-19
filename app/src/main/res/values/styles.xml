@@ -41,8 +41,11 @@
 
     <style name="DialogWindowTitle_Holo">
         <item name="android:scrollHorizontally">true</item>
-        <item name="android:textAppearance">@android:style/TextAppearance.Holo.DialogWindowTitle</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.DialogWindowTitle
+        </item>
     </style>
 
-
+    <style name="MyProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/progressBarColor</item>
+    </style>
 </resources>

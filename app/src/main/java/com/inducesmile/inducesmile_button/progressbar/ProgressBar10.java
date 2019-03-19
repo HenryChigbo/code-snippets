@@ -14,6 +14,7 @@ public class ProgressBar10 extends AppCompatActivity {
         setContentView(R.layout.activity_progress_bar10);
 
         ProgressBar progressBar = findViewById(R.id.progressBar);
-        progressBar.setProgress(20);
+        progressBar.setProgress(60);
+        progressBar.getProgress();
     }
 }

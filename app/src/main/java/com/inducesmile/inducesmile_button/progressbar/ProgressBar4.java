@@ -19,7 +19,7 @@ public class ProgressBar4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_progress_bae4);
+        setContentView(R.layout.activity_progress_bar4);
 
         wv = findViewById(R.id.webView3);
         progressBar = findViewById(R.id.progressBar);

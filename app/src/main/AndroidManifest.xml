@@ -12,13 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".progressbar.ProgressBar19">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".progressbar.ProgressBar19"/>
         <activity android:name=".progressbar.ProgressBar21" />
         <activity android:name=".progressbar.ProgressBar14" />
         <activity android:name=".progressbar.ProgressBar17" />
@@ -27,21 +21,23 @@
         <activity android:name=".progressbar.ProgressBar11" />
         <activity android:name=".progressbar.ProgressBar20" />
         <activity android:name=".progressbar.ProgressBar22" />
-        <activity android:name=".progressbar.ProgressBar15">
-
-        </activity>
-        <activity android:name=".progressbar.ProgressBar12" />
-        <activity android:name=".progressbar.ProgressBar13"/>
+        <activity android:name=".progressbar.ProgressBar12"/>
         <activity android:name=".progressbar.ProgressBar10" />
-        <activity android:name=".progressbar.ProgressBar9" />
+        <activity android:name=".progressbar.ProgressBar13"/>
+        <activity android:name=".progressbar.ProgressBar15" />
         <activity android:name=".progressbar.ProgressBar7" />
-        <activity android:name=".progressbar.ProgressBar5" />
+        <activity android:name=".progressbar.ProgressBar5">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".progressbar.ProgressBar9" />
         <activity android:name=".progressbar.ProgressBar6" />
         <activity android:name=".progressbar.ProgressBar4" />
         <activity android:name=".progressbar.ProgressBar3" />
-        <activity
-            android:name=".progressbar.ProgressBar8"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".progressbar.ProgressBar8" />
         <activity android:name=".progressbar.ProgressBar2" />
         <activity android:name=".progressbar.ProgressBar1" />
         <activity android:name=".toolbar.Toolbar17" />
@@ -147,10 +143,7 @@
         <activity android:name=".layout.Layout18" />
         <activity android:name=".layout.Layout20" />
         <activity android:name=".layout.Layout19" />
-        <activity
-            android:name=".toolbar.Toolbar1"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".toolbar.Toolbar1" />
         <activity android:name=".toolbar.Toolbar2" />
         <activity android:name=".toolbar.Toolbar3" />
         <activity android:name=".toolbar.Toolbar4" />
