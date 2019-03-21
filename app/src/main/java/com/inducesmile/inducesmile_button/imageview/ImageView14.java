@@ -14,7 +14,6 @@ public class ImageView14 extends AppCompatActivity {
     private float mScaleFactor = 1.0f;
     private ImageView mImageView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

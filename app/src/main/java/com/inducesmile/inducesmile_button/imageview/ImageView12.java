@@ -25,8 +25,6 @@ public class ImageView12 extends AppCompatActivity {
         setContentView(R.layout.activity_choose_image);
 
         Button selectImage = findViewById(R.id.uploadImage);
-
-
         selectImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

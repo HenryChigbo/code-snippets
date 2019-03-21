@@ -25,4 +25,27 @@
         android:text="CheckBox"
         app:layout_constraintStart_toStartOf="@+id/checkBox15"
         app:layout_constraintTop_toBottomOf="@+id/checkBox15" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox16"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="105dp"
+        android:text="Reset Checkbox"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
