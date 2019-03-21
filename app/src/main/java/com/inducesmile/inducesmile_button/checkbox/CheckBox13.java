@@ -1,0 +1,40 @@
+package com.inducesmile.inducesmile_button.checkbox;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.CheckBox;
+
+import com.inducesmile.inducesmile_button.R;
+
+public class CheckBox13 extends AppCompatActivity {
+
+    CheckBox checkBox2 = findViewById(R.id.checkBox15);
+    CheckBox checkBox3 = findViewById(R.id.checkBox16);
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_check_box13);
+
+//        Button resetButton = findViewById(R.id.button13);
+//        resetButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getApplicationContext(), "Checkbox cleared", Toast.LENGTH_SHORT).show();
+////
+////                if (checkBox1.isChecked()) {
+////                    checkBox1.setChecked(false);
+////                }
+////
+////                if (checkBox2.isChecked()) {
+////                    checkBox2.setChecked(false);
+////                }
+////
+////                if (checkBox3.isChecked()) {
+////                    checkBox3.setChecked(false);
+////                }
+//            }
+//        });
+
+    }
+}

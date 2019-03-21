@@ -12,7 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".progressbar.ProgressBar19"/>
+        <activity android:name=".checkbox.CheckBox20"/>
+        <activity android:name=".checkbox.CheckBox19" />
+        <activity android:name=".checkbox.CheckBox18" />
+        <activity android:name=".checkbox.CheckBox17" />
+        <activity android:name=".checkbox.CheckBox16" />
+        <activity android:name=".checkbox.CheckBox15" />
+        <activity android:name=".checkbox.CheckBox14" />
+        <activity android:name=".checkbox.CheckBox13" />
+        <activity android:name=".checkbox.CheckBox12" />
+        <activity android:name=".checkbox.CheckBox11" />
+        <activity android:name=".checkbox.CheckBox10" />
+        <activity android:name=".checkbox.CheckBox9" />
+        <activity android:name=".checkbox.CheckBox8" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".checkbox.CheckBox7" />
+        <activity android:name=".checkbox.CheckBox6" />
+        <activity android:name=".checkbox.CheckBox5" />
+        <activity android:name=".checkbox.CheckBox4" />
+        <activity android:name=".checkbox.CheckBox3" />
+        <activity android:name=".checkbox.CheckBox2" />
+        <activity android:name=".checkbox.CheckBox1" />
+        <activity android:name=".progressbar.ProgressBar19" />
         <activity android:name=".progressbar.ProgressBar21" />
         <activity android:name=".progressbar.ProgressBar14" />
         <activity android:name=".progressbar.ProgressBar17" />
@@ -21,18 +47,12 @@
         <activity android:name=".progressbar.ProgressBar11" />
         <activity android:name=".progressbar.ProgressBar20" />
         <activity android:name=".progressbar.ProgressBar22" />
-        <activity android:name=".progressbar.ProgressBar12"/>
+        <activity android:name=".progressbar.ProgressBar12" />
         <activity android:name=".progressbar.ProgressBar10" />
-        <activity android:name=".progressbar.ProgressBar13"/>
+        <activity android:name=".progressbar.ProgressBar13" />
         <activity android:name=".progressbar.ProgressBar15" />
         <activity android:name=".progressbar.ProgressBar7" />
-        <activity android:name=".progressbar.ProgressBar5">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".progressbar.ProgressBar5"/>
         <activity android:name=".progressbar.ProgressBar9" />
         <activity android:name=".progressbar.ProgressBar6" />
         <activity android:name=".progressbar.ProgressBar4" />
