@@ -20,19 +20,19 @@
         <activity android:name=".checkbox.CheckBox15" />
         <activity android:name=".checkbox.CheckBox14" />
         <activity android:name=".checkbox.CheckBox13" />
-        <activity android:name=".checkbox.CheckBox12" />
-        <activity android:name=".checkbox.CheckBox11" />
-        <activity android:name=".checkbox.CheckBox10" />
-        <activity android:name=".checkbox.CheckBox9" />
-        <activity android:name=".checkbox.CheckBox8" />
-        <activity android:name=".checkbox.CheckBox7" />
-        <activity android:name=".checkbox.CheckBox6" >
+        <activity android:name=".checkbox.CheckBox12" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".checkbox.CheckBox11" />
+        <activity android:name=".checkbox.CheckBox10" />
+        <activity android:name=".checkbox.CheckBox9" />
+        <activity android:name=".checkbox.CheckBox8" />
+        <activity android:name=".checkbox.CheckBox7" />
+        <activity android:name=".checkbox.CheckBox6" />
         <activity android:name=".checkbox.CheckBox5" />
         <activity android:name=".checkbox.CheckBox4" />
         <activity android:name=".checkbox.CheckBox3" />

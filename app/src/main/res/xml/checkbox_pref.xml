@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="CheckBox must be checked sequentially"
+        android:summary="The first box must be checked before the next can be checked">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_1"
+            android:title="CheckBox 1" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="check_box_preference_1"
+            android:key="check_box_preference_2"
+            android:title="CheckBox 2" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="check_box_preference_2"
+            android:key="check_box_preference_3"
+            android:title="CheckBox 3" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
