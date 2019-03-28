@@ -14,6 +14,6 @@ public class RadioButton6 extends AppCompatActivity {
         setContentView(R.layout.activity_radio_button6);
 
         RadioButton radioButton = findViewById(R.id.radioButton2);
-        radioButton.setClickable(false);
+        radioButton.setEnabled(false);
     }
 }

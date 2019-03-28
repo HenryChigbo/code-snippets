@@ -15,6 +15,9 @@
         android:text="RadioButton Button Size" />
 
     <RadioButton
+        android:textSize="20sp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
         android:id="@+id/radioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -12,24 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".radiobutton.RadioButton14"></activity>
+        <activity android:name=".radiobutton.RadioButton14"/>
         <activity android:name=".radiobutton.RadioButton13" />
         <activity android:name=".radiobutton.RadioButton11" />
         <activity android:name=".radiobutton.RadioButton15" />
-        <activity android:name=".radiobutton.RadioButton16" />
-        <activity android:name=".radiobutton.RadioButton17" >
+        <activity android:name=".radiobutton.RadioButton16" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".radiobutton.RadioButton17" />
         <activity android:name=".radiobutton.RadioButton18" />
         <activity android:name=".radiobutton.RadioButton19" />
         <activity android:name=".radiobutton.RadioButton20" />
         <activity android:name=".radiobutton.RadioButton12" />
         <activity android:name=".radiobutton.RadioButton10" />
-        <activity android:name=".radiobutton.RadioButton9" />
+        <activity android:name=".radiobutton.RadioButton9" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".radiobutton.RadioButton8" />
         <activity android:name=".radiobutton.RadioButton7" />
         <activity android:name=".radiobutton.RadioButton6" />
