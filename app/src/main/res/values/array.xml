@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="jsFrameworks">
+        <item>"NodeJS"</item>
+        <item>"Express JS"</item>
+        <item>"TypeScript"</item>
+        <item>"EcmaScript"</item>
+        <item>"Angular JS"</item>
+        <item>"React JS"</item>
+    </array>
+</resources>

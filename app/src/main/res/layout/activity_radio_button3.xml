@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".radiobutton.RadioButton3"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton with different icon" />
+
+    <RadioButton
+        android:paddingLeft="5dp"
+        android:button="@android:drawable/button_onoff_indicator_off"
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton1" />
+
+    <RadioButton
+        android:paddingLeft="5dp"
+        android:button="@android:drawable/button_onoff_indicator_on"
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton2" />
+
+</LinearLayout>

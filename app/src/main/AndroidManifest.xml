@@ -12,7 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".checkbox.CheckBox20"/>
+        <activity android:name=".radiobutton.RadioButton14"></activity>
+        <activity android:name=".radiobutton.RadioButton13" />
+        <activity android:name=".radiobutton.RadioButton11" />
+        <activity android:name=".radiobutton.RadioButton15" />
+        <activity android:name=".radiobutton.RadioButton16" />
+        <activity android:name=".radiobutton.RadioButton17" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".radiobutton.RadioButton18" />
+        <activity android:name=".radiobutton.RadioButton19" />
+        <activity android:name=".radiobutton.RadioButton20" />
+        <activity android:name=".radiobutton.RadioButton12" />
+        <activity android:name=".radiobutton.RadioButton10" />
+        <activity android:name=".radiobutton.RadioButton9" />
+        <activity android:name=".radiobutton.RadioButton8" />
+        <activity android:name=".radiobutton.RadioButton7" />
+        <activity android:name=".radiobutton.RadioButton6" />
+        <activity android:name=".radiobutton.RadioButton5" />
+        <activity android:name=".radiobutton.RadioButton4" />
+        <activity android:name=".radiobutton.RadioButton3" />
+        <activity android:name=".radiobutton.RadioButton1" />
+        <activity android:name=".radiobutton.RadioButton2" />
+        <activity android:name=".checkbox.CheckBox20" />
         <activity android:name=".checkbox.CheckBox19" />
         <activity android:name=".checkbox.CheckBox18" />
         <activity android:name=".checkbox.CheckBox17" />
@@ -20,18 +46,12 @@
         <activity android:name=".checkbox.CheckBox15" />
         <activity android:name=".checkbox.CheckBox14" />
         <activity android:name=".checkbox.CheckBox13" />
-        <activity android:name=".checkbox.CheckBox12" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".checkbox.CheckBox12" />
         <activity android:name=".checkbox.CheckBox11" />
         <activity android:name=".checkbox.CheckBox10" />
         <activity android:name=".checkbox.CheckBox9" />
         <activity android:name=".checkbox.CheckBox8" />
-        <activity android:name=".checkbox.CheckBox7" />
+        <activity android:name=".checkbox.CheckBox7"/>
         <activity android:name=".checkbox.CheckBox6" />
         <activity android:name=".checkbox.CheckBox5" />
         <activity android:name=".checkbox.CheckBox4" />
@@ -52,7 +72,7 @@
         <activity android:name=".progressbar.ProgressBar13" />
         <activity android:name=".progressbar.ProgressBar15" />
         <activity android:name=".progressbar.ProgressBar7" />
-        <activity android:name=".progressbar.ProgressBar5"/>
+        <activity android:name=".progressbar.ProgressBar5" />
         <activity android:name=".progressbar.ProgressBar9" />
         <activity android:name=".progressbar.ProgressBar6" />
         <activity android:name=".progressbar.ProgressBar4" />
