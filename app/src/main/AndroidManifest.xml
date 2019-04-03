@@ -12,7 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".radiobutton.RadioButton14"/>
+        <activity android:name=".seekbar.Seekbar10">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".seekbar.Seekbar9" />
+        <activity android:name=".seekbar.Seekbar8" />
+        <activity android:name=".seekbar.Seekbar7" />
+        <activity android:name=".seekbar.Seekbar6" />
+        <activity android:name=".seekbar.Seekbar5" />
+        <activity android:name=".seekbar.Seekbar4" />
+        <activity android:name=".seekbar.Seekbar3" />
+        <activity android:name=".seekbar.Seekbar20" />
+        <activity android:name=".seekbar.Seekbar2" />
+        <activity android:name=".seekbar.Seekbar19" />
+        <activity android:name=".seekbar.Seekbar18" />
+        <activity android:name=".seekbar.Seekbar17" />
+        <activity android:name=".seekbar.Seekbar16" />
+        <activity android:name=".seekbar.Seekbar15" />
+        <activity android:name=".seekbar.Seekbar14" />
+        <activity android:name=".seekbar.Seekbar13" />
+        <activity android:name=".seekbar.Seekbar11" />
+        <activity android:name=".seekbar.Seekbar12" />
+        <activity android:name=".seekbar.Seekbar1" />
+        <activity android:name=".radiobutton.RadioButton14" />
         <activity android:name=".radiobutton.RadioButton13" />
         <activity android:name=".radiobutton.RadioButton11" />
         <activity android:name=".radiobutton.RadioButton15" />
@@ -23,16 +49,9 @@
         <activity android:name=".radiobutton.RadioButton20" />
         <activity android:name=".radiobutton.RadioButton12" />
         <activity android:name=".radiobutton.RadioButton10" />
-        <activity android:name=".radiobutton.RadioButton9" >
-        </activity>
+        <activity android:name=".radiobutton.RadioButton9" />
         <activity android:name=".radiobutton.RadioButton8" />
-        <activity android:name=".radiobutton.RadioButton7" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".radiobutton.RadioButton7"/>
         <activity android:name=".radiobutton.RadioButton6" />
         <activity android:name=".radiobutton.RadioButton5" />
         <activity android:name=".radiobutton.RadioButton4" />
@@ -52,7 +71,7 @@
         <activity android:name=".checkbox.CheckBox10" />
         <activity android:name=".checkbox.CheckBox9" />
         <activity android:name=".checkbox.CheckBox8" />
-        <activity android:name=".checkbox.CheckBox7"/>
+        <activity android:name=".checkbox.CheckBox7" />
         <activity android:name=".checkbox.CheckBox6" />
         <activity android:name=".checkbox.CheckBox5" />
         <activity android:name=".checkbox.CheckBox4" />
