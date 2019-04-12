@@ -12,13 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".seekbar.Seekbar10">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".seekbar.Seekbar10"/>
         <activity android:name=".seekbar.Seekbar9" />
         <activity android:name=".seekbar.Seekbar8" />
         <activity android:name=".seekbar.Seekbar7" />
@@ -31,7 +25,13 @@
         <activity android:name=".seekbar.Seekbar19" />
         <activity android:name=".seekbar.Seekbar18" />
         <activity android:name=".seekbar.Seekbar17" />
-        <activity android:name=".seekbar.Seekbar16" />
+        <activity android:name=".seekbar.Seekbar16" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".seekbar.Seekbar15" />
         <activity android:name=".seekbar.Seekbar14" />
         <activity android:name=".seekbar.Seekbar13" />

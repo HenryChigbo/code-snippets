@@ -1,5 +1,6 @@
 package com.inducesmile.inducesmile_button.seekbar;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.SeekBar;
@@ -15,6 +16,9 @@ public class Seekbar7 extends AppCompatActivity {
 
         SeekBar seekBar = findViewById(R.id.seekBar);
         seekBar.setProgress(50);
-        seekBar.setMax(70);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            seekBar.setMin(25);
+        }
+        seekBar.setMax(40);
     }
 }

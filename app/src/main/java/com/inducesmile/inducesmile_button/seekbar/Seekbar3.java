@@ -17,7 +17,7 @@ public class Seekbar3 extends AppCompatActivity {
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                //seekBar.setMinimumHeight(155);
+                seekBar.setMinimumHeight(155);
             }
 
             @Override
@@ -27,7 +27,7 @@ public class Seekbar3 extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setMax(35);
+                seekBar.setMax(44);
             }
         });
     }
