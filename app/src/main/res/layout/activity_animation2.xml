@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation.Animation2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Swipe UP/Swipe Down"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notebook"
+        />
+
+    <Button
+        android:id="@+id/slide_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Up"/>
+
+    <Button
+        android:id="@+id/slide_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Down"/>
+
+</LinearLayout>
