@@ -2,6 +2,8 @@
     <string name="app_name">Code Snippet</string>
     <string name="click_me">Click Me</string>
 
+    <string name="transition_string">Transition</string>
+
     <string-array name="social_media">
         <item>Facebook</item>
         <item>Linkedln</item>

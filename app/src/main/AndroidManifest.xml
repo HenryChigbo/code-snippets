@@ -16,18 +16,18 @@
         <activity android:name=".animation.Animation15" />
         <activity android:name=".animation.Animation14" />
         <activity android:name=".animation.Animation18" />
-        <activity android:name=".animation.Animation11" >
+        <activity android:name=".animation.Animation11" />
+        <activity android:name=".animation.Animation13" />
+        <activity android:name=".animation.Animation12" />
+        <activity android:name=".animation.Animation16" />
+        <activity android:name=".animation.Animation6" />
+        <activity android:name=".animation.Animation17" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".animation.Animation13" />
-        <activity android:name=".animation.Animation12" />
-        <activity android:name=".animation.Animation16" />
-        <activity android:name=".animation.Animation6" />
-        <activity android:name=".animation.Animation17" />
         <activity android:name=".animation.Animation7" />
         <activity android:name=".animation.Animation9" />
         <activity android:name=".animation.Animation10" />
