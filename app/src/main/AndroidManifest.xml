@@ -12,7 +12,34 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".animation.Animation8"/>
+        <activity android:name=".json.Json20"></activity>
+        <activity android:name=".json.Json19" />
+        <activity android:name=".json.Json18" />
+        <activity android:name=".json.JsonActivity"/>
+        <activity android:name=".json.Json17" />
+        <activity android:name=".json.Json16" />
+        <activity android:name=".json.Json14" />
+        <activity android:name=".json.Json15" />
+        <activity android:name=".json.Json13" />
+        <activity android:name=".json.Json12" />
+        <activity android:name=".json.Json11" />
+        <activity android:name=".json.Json10" />
+        <activity android:name=".json.Json9" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".json.Json8" />
+        <activity android:name=".json.Json7" />
+        <activity android:name=".json.Json6" />
+        <activity android:name=".json.Json5" />
+        <activity android:name=".json.Json4" />
+        <activity android:name=".json.Json3" />
+        <activity android:name=".json.Json2" />
+        <activity android:name=".json.Json1" />
+        <activity android:name=".animation.Animation8" />
         <activity android:name=".animation.Animation15" />
         <activity android:name=".animation.Animation14" />
         <activity android:name=".animation.Animation18" />
@@ -23,17 +50,11 @@
         <activity android:name=".animation.Animation6" />
         <activity android:name=".animation.Animation17" />
         <activity android:name=".animation.Animation7" />
-        <activity android:name=".animation.Animation9" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".animation.Animation9"/>
         <activity android:name=".animation.Animation10" />
         <activity android:name=".animation.Animation4" />
         <activity android:name=".animation.Animation19" />
-        <activity android:name=".animation.Animation20"/>
+        <activity android:name=".animation.Animation20" />
         <activity android:name=".animation.Animation5" />
         <activity android:name=".animation.Animation3" />
         <activity android:name=".animation.Animation2" />
@@ -51,7 +72,7 @@
         <activity android:name=".seekbar.Seekbar19" />
         <activity android:name=".seekbar.Seekbar18" />
         <activity android:name=".seekbar.Seekbar17" />
-        <activity android:name=".seekbar.Seekbar16"/>
+        <activity android:name=".seekbar.Seekbar16" />
         <activity android:name=".seekbar.Seekbar15" />
         <activity android:name=".seekbar.Seekbar14" />
         <activity android:name=".seekbar.Seekbar13" />
