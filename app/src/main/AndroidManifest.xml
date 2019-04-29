@@ -24,15 +24,15 @@
         <activity android:name=".json.Json12" />
         <activity android:name=".json.Json11" />
         <activity android:name=".json.Json10" />
-        <activity android:name=".json.Json9" >
+        <activity android:name=".json.Json9" />
+        <activity android:name=".json.Json8" />
+        <activity android:name=".json.Json7" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".json.Json8" />
-        <activity android:name=".json.Json7" />
         <activity android:name=".json.Json6" />
         <activity android:name=".json.Json5" />
         <activity android:name=".json.Json4" />

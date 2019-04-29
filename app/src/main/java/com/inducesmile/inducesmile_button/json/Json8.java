@@ -18,18 +18,18 @@ public class Json8 extends AppCompatActivity {
 
         TextView jsonObjectTextview = findViewById(R.id.text);
 
-        String jsonString = "{\"firstName\":\"Peter\",\"Country\":\"Nigeria\",\"State\":\"Lagos State\"}";
+        String jsonString = "{\n" +
+                "\t\t\t\"Name\": \"Pascal Made Simple\",\n" +
+                "\t\t\t\"price\": 700\n" +
+                "\t\t}";
+
+        //Creating JSONObject from String
         try {
-            JSONObject jsonObject =  new JSONObject(jsonString);
-            JSONObject jsonObject1 = jsonObject.getJSONObject("json");
-            String jsonObjectText = jsonObject1.getString("js");
-            String js;
-            js = jsonObject1.getString(jsonObjectText);
-            jsonObjectTextview.setText(js);
+            JSONObject jsonObject = new JSONObject(jsonString);
+            jsonObjectTextview.setText(jsonObject.toString());
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
 
     }
 }

@@ -15,10 +15,20 @@ public class JsonActivity extends AppCompatActivity {
         setContentView(R.layout.activity_json_activity);
 
         Bundle bundle = getIntent().getExtras();
-        JavaObjects javaObjects = (JavaObjects) bundle.getParcelable("Key");
+        JavaObjects javaObjects = bundle.getParcelable("Key");
 
         TextView textView = findViewById(R.id.text);
-        textView.setText(javaObjects.toString());
+        TextView textView2 = findViewById(R.id.text2);
+        TextView textView3 = findViewById(R.id.text3);
+        //textView.setText(javaObjects.toString());
+
+        //Nested Object
+        ContactInfo.Address contactInfo = getIntent().getParcelableExtra("key");
+        //textView2.setText(contactInfo.toString());
+
+        //Nested Object with Date
+        ContactInfo.Address date = getIntent().getParcelableExtra("date");
+        textView3.setText(date.toString());
     }
 
 }
