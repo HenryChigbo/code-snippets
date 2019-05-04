@@ -1,5 +1,6 @@
 package com.inducesmile.inducesmile_button.json;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -11,5 +12,9 @@ public class Json13 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_json13);
+
+        Intent intent = new Intent(Json13.this, JsonActivity.class);
+        //Custom Object
+        Contact contact = new Contact("Inducesmile", "Nigeria", "Male");
     }
 }

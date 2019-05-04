@@ -4,18 +4,47 @@
     package="com.inducesmile.inducesmile_button">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".json.Json20"></activity>
+        <activity android:name=".database.Sqlite21"></activity>
+        <activity android:name=".database.Sqlite20" />
+        <activity android:name=".database.Sqlite19" />
+        <activity android:name=".database.Sqlite18" />
+        <activity android:name=".database.Sqlite17" />
+        <activity android:name=".database.Sqlite16" />
+        <activity android:name=".database.Sqlite15" />
+        <activity android:name=".database.Sqlite14" />
+        <activity android:name=".database.Sqlite13" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".database.Sqlite12" />
+        <activity android:name=".database.Sqlite11" />
+        <activity android:name=".database.Sqlite10" />
+        <activity android:name=".database.Sqlite9" />
+        <activity android:name=".database.Sqlite8" />
+        <activity android:name=".database.Sqlite7" />
+        <activity android:name=".database.Sqlite6" />
+        <activity android:name=".database.Sqlite5" />
+        <activity android:name=".database.Sqlite4" />
+        <activity android:name=".database.Sqlite3" />
+        <activity android:name=".database.Sqlite2" />
+        <activity android:name=".database.Sqlite1" />
+        <activity android:name=".json.Json20" />
         <activity android:name=".json.Json19" />
         <activity android:name=".json.Json18" />
-        <activity android:name=".json.JsonActivity"/>
+        <activity android:name=".json.JsonActivity" />
         <activity android:name=".json.Json17" />
         <activity android:name=".json.Json16" />
         <activity android:name=".json.Json14" />
@@ -26,13 +55,7 @@
         <activity android:name=".json.Json10" />
         <activity android:name=".json.Json9" />
         <activity android:name=".json.Json8" />
-        <activity android:name=".json.Json7" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".json.Json7"/>
         <activity android:name=".json.Json6" />
         <activity android:name=".json.Json5" />
         <activity android:name=".json.Json4" />
@@ -50,7 +73,7 @@
         <activity android:name=".animation.Animation6" />
         <activity android:name=".animation.Animation17" />
         <activity android:name=".animation.Animation7" />
-        <activity android:name=".animation.Animation9"/>
+        <activity android:name=".animation.Animation9" />
         <activity android:name=".animation.Animation10" />
         <activity android:name=".animation.Animation4" />
         <activity android:name=".animation.Animation19" />
