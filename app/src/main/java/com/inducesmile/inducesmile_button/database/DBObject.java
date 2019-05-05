@@ -60,6 +60,12 @@ public class DBObject extends SQLiteOpenHelper {
         db.execSQL(query);
     }
 
+    @Override
+    public void onOpen(SQLiteDatabase db) {
+        super.onOpen(db);
+        db.isOpen();
+    }
+
     public void clearDatabase(String TABLE_NAME) {
         String clearDBQuery = "DELETE FROM "+TABLE_NAME;
         db.execSQL(clearDBQuery);

@@ -4,46 +4,72 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.Button;
 
 import com.inducesmile.inducesmile_button.R;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.nio.channels.FileChannel;
+import java.io.IOException;
+import java.io.OutputStream;
+
+import static com.inducesmile.inducesmile_button.database.DBObject.DATABASE_NAME;
 
 public class Sqlite6 extends AppCompatActivity {
 
-    //static String packageName = Context.getApplicationInfo().packageName;
+    public static String PACKAGE_NAME;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sqlite6);
 
+        PACKAGE_NAME = getApplicationContext().getPackageName();
+        button = findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                exportDB();
+            }
+        });
+
+    }
+
+    private void exportDB() {
         try {
-            File sd = Environment.getExternalStorageDirectory();
-            File data = Environment.getDataDirectory();
-
-            if (sd.canWrite()) {
-                String currentDBPath = "//data//com.inducesmile.inducesmile.button//databases//DB.db";
-                String backupDBPath = "{database name}";
-                File currentDB = new File(data, currentDBPath);
-                File backupDB = new File(sd, backupDBPath);
-
-                if (currentDB.exists()) {
-                    FileChannel src = new FileInputStream(currentDB).getChannel();
-                    FileChannel dst = new FileOutputStream(backupDB).getChannel();
-                    dst.transferFrom(src, 0, src.size());
-                    src.close();
-                    dst.close();
-                    Toast.makeText(getBaseContext(), backupDB.toString(), Toast.LENGTH_LONG).show();
+            File direct = new File(Environment.getExternalStorageDirectory() + "/Inducesmile/");
+            if(!direct.exists()) {
+                if(direct.mkdir()) {
+                    //directory is created;
                 }
             }
-        } catch (Exception e) {
-            Toast.makeText(getBaseContext(), e.toString(), Toast.LENGTH_LONG).show();
-            Log.d("Message:", e.getMessage());
+
+            String backupDBPath = ".../Inducesmile/";
+            File dbFile = new File(this.getDatabasePath(DATABASE_NAME).getAbsolutePath());
+            FileInputStream fis = new FileInputStream(dbFile);
+
+            String outFileName = backupDBPath + File.separator +
+                    DATABASE_NAME + ".db";
+
+            // Open the empty db as the output stream
+            OutputStream output = new FileOutputStream(outFileName);
+
+            // Transfer bytes from the inputfile to the outputfile
+            byte[] buffer = new byte[1024];
+            int length;
+            while ((length = fis.read(buffer)) > 0) {
+                output.write(buffer, 0, length);
+            }
+            // Close the streams
+            output.flush();
+            output.close();
+            fis.close();
+
+
+        } catch (IOException e) {
+            Log.e("dbBackup:", e.getMessage());
         }
-    }
-}
+    }}

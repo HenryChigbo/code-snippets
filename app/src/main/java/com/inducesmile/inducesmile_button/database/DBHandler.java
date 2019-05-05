@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 
 import java.io.ByteArrayOutputStream;
 
@@ -27,6 +28,13 @@ public class DBHandler extends SQLiteOpenHelper {
     public DBHandler(Context context) {
         super(context, databaseName, null, databaseVersion);
         this.context = context;
+    }
+
+    @Override
+    public void onOpen(SQLiteDatabase db) {
+        super.onOpen(db);
+        Log.d(TAG, "SQLiteDatabase Open");
+        //Toast.makeText( "Database Open", Toast.LENGTH_LONG).show();
     }
 
     @Override

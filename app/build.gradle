@@ -46,6 +46,6 @@ dependencies {
 
     //Gson Dependency
     implementation 'com.google.code.gson:gson:2.8.5'
-
+    implementation 'net.zetetic:android-database-sqlcipher:3.3.1-2@aar'
     implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
 }

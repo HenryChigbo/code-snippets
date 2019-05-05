@@ -22,20 +22,20 @@
         <activity android:name=".database.Sqlite16" />
         <activity android:name=".database.Sqlite15" />
         <activity android:name=".database.Sqlite14" />
-        <activity android:name=".database.Sqlite13" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".database.Sqlite13" />
         <activity android:name=".database.Sqlite12" />
         <activity android:name=".database.Sqlite11" />
         <activity android:name=".database.Sqlite10" />
         <activity android:name=".database.Sqlite9" />
         <activity android:name=".database.Sqlite8" />
         <activity android:name=".database.Sqlite7" />
-        <activity android:name=".database.Sqlite6" />
+        <activity android:name=".database.Sqlite6" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".database.Sqlite5" />
         <activity android:name=".database.Sqlite4" />
         <activity android:name=".database.Sqlite3" />
